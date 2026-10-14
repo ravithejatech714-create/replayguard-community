@@ -1,0 +1,11 @@
+{
+  "release": "RELEASE_v1.0.2",
+  "platform": "linux/amd64",
+  "images": {
+    "backend-api": "ghcr.io/ravithejatech714-create/replayguard-community-backend-api@sha256:1f1db2410dd250a7ed63ba72338024bb17318dedd9761774e5b28d59472a1d30",
+    "replay-worker": "ghcr.io/ravithejatech714-create/replayguard-community-replay-worker@sha256:97b71bd550463933dc9cd1abf5ef4cd7fead7f25313cd3f98518a714f340080f",
+    "frontend": "ghcr.io/ravithejatech714-create/replayguard-community-frontend@sha256:8a8b62b4f1493373a1fb101986c4f065849c97ab76a7eecee46929e929eee95b",
+    "reverse-proxy": "ghcr.io/ravithejatech714-create/replayguard-community-reverse-proxy@sha256:06784f962a189b81f70619f8dc2ef9efa0e83dced754e0fad613b1635a6653fd",
+    "postgres": "postgres@sha256:721873c34ceb9f8d8fc265984940dc982404c105f19ad51be9fdc5970a6080ea"
+  }
+}

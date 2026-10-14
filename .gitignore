@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+kafka-secrets/
+backups/
+*.pem
+*.key
+*.jks
+*.p12
+*.pfx
+*.license-key
+*.log
+__pycache__/
+*.pyc
